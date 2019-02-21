@@ -1,0 +1,213 @@
+body
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Inconsolata", monospace;
+ /* background-color:#bfeafc; */
+background: url(chicagocity.jpg);
+background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+#wrapper
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:995px;
+}
+#wrapper h1
+{
+ margin-top:50px;
+ font-size:45px;
+ color:#0eba61;
+}
+#wrapper h1 p
+{
+font-size:18px;
+}
+.form_div
+{
+width:330px;
+margin-left:320px;
+padding:10px;
+border-radius:9px;
+border: black solid 2px;
+/* background-color:#243363; */
+background: rgba(76, 107, 175, 0.603);
+}
+}
+.form_div .form_label
+{
+margin:15px;
+margin-bottom:30px;
+font-size:25px;
+font-weight:bold;
+color:white;
+/* text-decoration:underline; */
+}
+.form_div input[type="text"],input[type="password"], input[type="email"]
+{
+width:230px;
+height:40px;
+border-radius:9px;
+font-size:19px;
+padding-left:5px;
+border:solid black 2px;
+}
+.form_div input[type="submit"]
+{
+width:230px;
+height:40px;
+border:none;
+border-radius:9px;
+font-size:17px;
+background-color:#0eba61;
+border-bottom:5px solid black;
+color:white;
+font-weight:bold;
+}
+
+
+@media only screen and (min-width:700px) and (max-width:995px)
+{
+#wrapper
+{
+width:100%;
+}
+#wrapper h1
+{
+font-size:30px;
+}
+.form_div
+{
+width:50%;
+margin-left:25%;
+padding-left:0px;
+padding-right:0px;
+}
+.form_div input[type="text"],input[type="password"]
+{
+width:80%;
+}
+.form_div textarea
+{
+width:80%;
+}
+.form_div input[type="submit"]
+{
+width:80%;
+}
+}
+@media only screen and (min-width:400px) and (max-width:699px)
+{
+#wrapper
+{
+width:100%;
+}
+#wrapper h1
+{
+font-size:30px;
+}
+.form_div
+{
+width:60%;
+margin-left:20%;
+}
+.form_div input[type="text"],input[type="password"]
+{
+width:80%;
+}
+.form_div input[type="submit"]
+{
+width:80%;
+}
+}
+@media only screen and (min-width:100px) and (max-width:399px)
+{
+#wrapper
+{
+width:100%;
+}
+#wrapper h1
+{
+font-size:25px;
+}
+.form_div
+{
+width:90%;
+margin-left:5%;
+padding-left:0px;
+padding-right:0px;
+}
+.form_div input[type="text"],input[type="password"]
+{
+width:80%;
+}
+.form_div input[type="submit"]
+{
+width:80%;
+}
+}
+
+.forgot{
+  color: white;
+  font-size: 1.15rem;
+}
+
+hr {
+  color: #f2f5f7;
+  width: 75%;
+}
+
+.fill{
+    color: white;
+    font-size: 1rem;
+  }
+
+.fa-envelope {
+    color: white;
+}
+
+.fa-unlock-alt {
+    color: white;
+}
+
+.fa-user {
+    color: white;
+}
+
+.log {
+    color: white;
+    font-size: 1rem;
+
+}
+
+.flex-c {
+    display: flex;
+    justify-content: center;
+}
+
+.remember {
+    color:#e3e5e7;
+    font-size: 1rem;
+}
+
+.container {
+    padding-bottom: 112px;
+}
+
+p {
+    color: white;
+}
+
+.sign {
+    color: #4AECF1;
+}
